@@ -1,3 +1,9 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+}
+
 .nav__link {
   color: var(--dark) !important;
   font-weight: 600;

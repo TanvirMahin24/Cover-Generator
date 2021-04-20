@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar as BootstrapNavbar, Nav } from "react-bootstrap";
+import { Navbar as BootstrapNavbar, Nav, Container } from "react-bootstrap";
 import NavLogo from "./NavLogo/NavLogo";
 import styles from "./Navbar.module.css";
 import AppleStore from "../../Assets/Navbar/AppleAppStore.svg";
@@ -7,8 +7,8 @@ import GoogleStore from "../../Assets/Navbar/GooglePlay.svg";
 
 const Navbar = () => {
   return (
-    <div className="container">
-      <BootstrapNavbar bg="none" variant="light">
+    <Container>
+      <BootstrapNavbar bg="none" variant="light" className={`${styles.navbar}`}>
         <BootstrapNavbar.Brand href="#home">
           <NavLogo />
         </BootstrapNavbar.Brand>
@@ -28,7 +28,7 @@ const Navbar = () => {
           <img src={AppleStore} alt="Apple Store" />
         </div>
       </BootstrapNavbar>
-    </div>
+    </Container>
   );
 };
 

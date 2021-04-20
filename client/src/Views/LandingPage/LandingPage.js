@@ -1,11 +1,15 @@
 import React from "react";
+import { Header } from "../../Components/Header";
+import Hero from "../../Components/Hero/Hero";
 import { Navbar } from "../../Components/Navbar";
 
 const LandingPage = () => {
   return (
     <>
-      <Navbar />
-      <h1>Landing Page</h1>
+      <Header>
+        <Navbar />
+        <Hero />
+      </Header>
     </>
   );
 };
