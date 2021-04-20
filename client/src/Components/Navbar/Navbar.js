@@ -8,25 +8,38 @@ import GoogleStore from "../../Assets/Navbar/GooglePlay.svg";
 const Navbar = () => {
   return (
     <Container>
-      <BootstrapNavbar bg="none" variant="light" className={`${styles.navbar}`}>
+      <BootstrapNavbar
+        bg="none"
+        collapseOnSelect
+        expand="md"
+        variant="light"
+        className={`${styles.navbar}`}
+      >
         <BootstrapNavbar.Brand href="#home">
           <NavLogo />
         </BootstrapNavbar.Brand>
-        <Nav className="">
-          <Nav.Link href="#home" className={styles.nav__link}>
-            Home
-          </Nav.Link>
-          <Nav.Link href="#features" className={styles.nav__link}>
-            Features
-          </Nav.Link>
-          <Nav.Link href="#pricing" className={styles.nav__link}>
-            Pricing
-          </Nav.Link>
-        </Nav>
-        <div className={`${styles.nav__right}`}>
-          <img src={GoogleStore} className="mr-3" alt="Google Store" />
-          <img src={AppleStore} alt="Apple Store" />
-        </div>
+        <BootstrapNavbar.Toggle aria-controls="responsive-navbar-nav" />
+        <BootstrapNavbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="#home" className={styles.nav__link}>
+              Home
+            </Nav.Link>
+            <Nav.Link href="#features" className={styles.nav__link}>
+              Features
+            </Nav.Link>
+            <Nav.Link href="#pricing" className={styles.nav__link}>
+              Pricing
+            </Nav.Link>
+          </Nav>
+          <Nav className={`ml-auto ${styles.nav__right}`}>
+            <Nav.Link href="#features" className={styles.store_img}>
+              <img src={GoogleStore} className="mr-3" alt="Google Store" />
+            </Nav.Link>
+            <Nav.Link href="#pricing" className={styles.store_img}>
+              <img src={AppleStore} alt="Apple Store" />
+            </Nav.Link>
+          </Nav>
+        </BootstrapNavbar.Collapse>
       </BootstrapNavbar>
     </Container>
   );
