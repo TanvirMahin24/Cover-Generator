@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import HeroImg from "../../Assets/Hero/heroImg.png";
 import styles from "./Hero.module.css";
 
