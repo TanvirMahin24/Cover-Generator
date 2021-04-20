@@ -2,5 +2,7 @@
   background: url(../../Assets/Hero/Background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 120vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
