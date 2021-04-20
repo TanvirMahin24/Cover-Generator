@@ -1,0 +1,18 @@
+.nav__link {
+  color: var(--dark) !important;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  padding-right: 15px !important;
+}
+
+.nav__link:hover {
+  color: var(--gray) !important;
+}
+
+.nav__right {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

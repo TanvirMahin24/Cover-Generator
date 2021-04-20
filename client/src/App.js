@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { RouteWithSubRoutes } from "./routes/RouteWithSubRoutes";
 import routes from "./routes/routes";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
