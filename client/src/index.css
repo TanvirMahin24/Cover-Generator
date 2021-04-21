@@ -73,3 +73,19 @@ code {
   font-size: 20px !important;
   line-height: 30px !important;
 }
+
+.lead__1 {
+  font-family: "Manrope", "Segoe UI" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.lead__2 {
+  font-family: "Manrope", "Segoe UI" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
