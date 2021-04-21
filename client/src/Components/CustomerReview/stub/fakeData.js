@@ -20,3 +20,5 @@ const data = [
     role: "Co-Founder, BookMyShow",
   },
 ];
+
+export default data;
