@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
+import FeatureItem from "./FeatureItem/FeatureItem";
 import styles from "./Features.module.css";
+import data from "./stub/fakeData";
 
 const Features = () => {
   return (
@@ -10,7 +12,11 @@ const Features = () => {
         We love making your life easy by providing useful and effective features
       </span>
       <Container>
-        <Row></Row>
+        <Row className="py-5">
+          {data.map((feature) => (
+            <FeatureItem {...feature} key={feature.id} />
+          ))}
+        </Row>
       </Container>
     </div>
   );
