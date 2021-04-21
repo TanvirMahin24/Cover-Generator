@@ -1,4 +1,5 @@
 import React from "react";
+import CustomerReview from "../../Components/CustomerReview/CustomerReview";
 import { Features } from "../../Components/Features";
 import { Header } from "../../Components/Header";
 import Hero from "../../Components/Hero/Hero";
@@ -12,6 +13,7 @@ const LandingPage = () => {
         <Hero />
       </Header>
       <Features />
+      <CustomerReview />
     </>
   );
 };

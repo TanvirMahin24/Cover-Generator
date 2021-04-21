@@ -1,0 +1,7 @@
+.customer_review {
+  background: var(--brand-light-blue-2);
+}
+
+.title {
+  transform: translateY(-50%) translateX(50px);
+}
