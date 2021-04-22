@@ -2,6 +2,8 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../../Assets/Footer/logo.svg";
+import AppleImg from "../../Assets/Navbar/AppleAppStore.svg";
+import GoogleImg from "../../Assets/Navbar/GooglePlay.svg";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
@@ -49,6 +51,10 @@ const Footer = () => {
           </Col>
           <Col md={4} className="text-right">
             <span className={styles.get__app}>Get the App</span>
+            <div className={styles.store__section}>
+              <img src={GoogleImg} alt="" className={styles.store} />
+              <img src={AppleImg} alt="" className={styles.store} />
+            </div>
           </Col>
         </Row>
       </Container>

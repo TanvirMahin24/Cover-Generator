@@ -32,4 +32,17 @@
   font-size: 18px;
   line-height: 28px;
   color: var(--light);
+  padding-bottom: 5px;
+}
+
+.store__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.store {
+  height: 55px;
+  padding-top: 15px;
 }
