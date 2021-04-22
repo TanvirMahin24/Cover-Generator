@@ -49,7 +49,7 @@ const Footer = () => {
               </span>
             </div>
           </Col>
-          <Col md={4} className="text-right">
+          <Col md={4} className="text-md-right text-center pt-4 pt-md-0">
             <span className={styles.get__app}>Get the App</span>
             <div className={styles.store__section}>
               <img src={GoogleImg} alt="" className={styles.store} />

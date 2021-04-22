@@ -10,6 +10,7 @@
   line-height: 26px;
   padding-right: 15px;
   transition: 0.3s all ease-in-out;
+  display: inline-block;
 }
 
 .footer__link:hover {
@@ -45,4 +46,17 @@
 .store {
   height: 55px;
   padding-top: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .store__section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .store {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 }
