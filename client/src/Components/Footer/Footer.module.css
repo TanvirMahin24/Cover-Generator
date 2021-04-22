@@ -1,0 +1,35 @@
+.footer {
+  background: var(--black);
+}
+
+.footer__link {
+  color: var(--light) !important;
+  text-decoration: none !important;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 26px;
+  padding-right: 15px;
+  transition: 0.3s all ease-in-out;
+}
+
+.footer__link:hover {
+  color: var(--brand-light-blue) !important;
+  transition: 0.3s all ease-in-out;
+}
+
+.copyright {
+  color: #d9dbe1;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.get__app {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--light);
+}
