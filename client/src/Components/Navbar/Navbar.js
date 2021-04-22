@@ -4,6 +4,7 @@ import NavLogo from "./NavLogo/NavLogo";
 import styles from "./Navbar.module.css";
 import AppleStore from "../../Assets/Navbar/AppleAppStore.svg";
 import GoogleStore from "../../Assets/Navbar/GooglePlay.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -21,7 +22,7 @@ const Navbar = () => {
         <BootstrapNavbar.Toggle aria-controls="responsive-navbar-nav" />
         <BootstrapNavbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#home" className={styles.nav__link}>
+            <Nav.Link as={Link} to="/" className={styles.nav__link}>
               Home
             </Nav.Link>
             <Nav.Link href="#features" className={styles.nav__link}>

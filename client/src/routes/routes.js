@@ -1,5 +1,6 @@
 import { Navbar } from "../Components/Navbar";
 import { LandingPage } from "../Views/LandingPage";
+import { NotFound } from "../Views/NotFound";
 
 const routes = [
   {
@@ -16,6 +17,10 @@ const routes = [
         component: Navbar,
       },
     ],
+  },
+  {
+    path: "*",
+    component: NotFound,
   },
 ];
 
