@@ -9,8 +9,8 @@ const Error = () => {
   };
   return (
     <div className="text-center py-5">
-      <img src={errImg} alt="" className="img-fluid" />
-      <span className="d-block heading__2 pb-3">Page Not Found</span>
+      <img src={errImg} alt="" className="w-50 " />
+      <span className="d-block heading__4 py-3">Page Not Found</span>
       <button
         className="btn btn-lg btn-primary"
         onClick={() => clickHandeler()}
