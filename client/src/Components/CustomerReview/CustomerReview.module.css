@@ -35,3 +35,15 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .card__left {
+    width: 100%;
+  }
+
+  .title {
+    transform: translateY(-70px) translateX(50px);
+    font-size: 36px !important;
+    line-height: 45px !important;
+  }
+}
