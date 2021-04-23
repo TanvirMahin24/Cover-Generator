@@ -6,3 +6,9 @@
 .darkSidebar {
   flex: 1;
 }
+
+@media screen and (max-width: 767px) {
+  .darkSidebar {
+    display: none;
+  }
+}
