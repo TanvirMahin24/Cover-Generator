@@ -9,13 +9,13 @@ const RegForm = () => {
   };
 
   const SignupSchema = Yup.object().shape({
-    password: Yup.string().required("Please Provide Password"),
+    password: Yup.string().required("Password is required!"),
     confirmPassword: Yup.string().oneOf(
       [Yup.ref("password"), null],
-      "Passwords must match"
+      "Passwords do not match!"
     ),
-    email: Yup.string().email("Invalid email").required("Email is Required"),
-    name: Yup.string().required("Name is Required"),
+    email: Yup.string().email("Invalid email").required("Email is required!"),
+    name: Yup.string().required("Name is required!"),
   });
   return (
     <Formik
