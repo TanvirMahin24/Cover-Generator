@@ -1,0 +1,21 @@
+.login {
+  display: flex;
+  background: var(--brand-light-blue-2);
+  margin-top: -72px;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login__card {
+  padding: 20px;
+  border: none !important;
+  width: 350px;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07) !important;
+  border-radius: 8px !important;
+}
