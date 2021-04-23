@@ -2,6 +2,7 @@ import { Navbar } from "../Components/Navbar";
 import { LandingPage } from "../Views/LandingPage";
 import { LoginPage } from "../Views/LoginPage";
 import { NotFound } from "../Views/NotFound";
+import { RegisterPage } from "../Views/RegisterPage";
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
   {
     path: "/login",
     component: LoginPage,
+    exact: true,
+  },
+  {
+    path: "/register",
+    component: RegisterPage,
     exact: true,
   },
   {
