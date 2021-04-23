@@ -26,11 +26,11 @@ const Navbar = () => {
               <Nav.Link as={Link} to="/" className={styles.nav__link}>
                 Home
               </Nav.Link>
-              <Nav.Link href="#features" className={styles.nav__link}>
-                Features
+              <Nav.Link as={Link} to="/login" className={styles.nav__link}>
+                Login
               </Nav.Link>
-              <Nav.Link href="#pricing" className={styles.nav__link}>
-                Pricing
+              <Nav.Link as={Link} to="/register" className={styles.nav__link}>
+                Register
               </Nav.Link>
             </Nav>
             <Nav className={`ml-auto ${styles.nav__right}`}>
