@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Col, Container, Form, Row } from "react-bootstrap";
 import DarkSidebar from "../DarkSidebar/DarkSidebar";
+import { LoginForm } from "./LoginForm";
 import styles from "./Login.module.css";
 
 const Login = () => {
@@ -12,7 +13,7 @@ const Login = () => {
           <Col className="">
             <Card className={styles.login__card}>
               <Card.Body>
-                <Form />
+                <LoginForm />
               </Card.Body>
             </Card>
           </Col>
