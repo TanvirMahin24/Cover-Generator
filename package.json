@@ -28,6 +28,8 @@
     "formik": "^2.2.6",
     "http-errors": "^1.8.0",
     "mongoose": "^5.12.4",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
     "superagent": "^6.1.0",
     "yup": "^0.32.9"
   },
