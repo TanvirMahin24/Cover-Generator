@@ -1,13 +1,10 @@
 import {
   REGISTER_FAIL,
   REGISTER_SUCCESS,
-  USER_LOADED,
   AUTH_ERROR,
   LOGIN_SUCCESS,
   LOGIN_FAIL,
-  LOGOUT,
-  DELETE_ACCOUNT,
-} from "../actions/types";
+} from "../../Constants/Types";
 
 const initialState = {
   token: localStorage.getItem("token"),
