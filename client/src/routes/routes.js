@@ -3,6 +3,7 @@ import { LandingPage } from "../Views/LandingPage";
 import { LoginPage } from "../Views/LoginPage";
 import { NotFound } from "../Views/NotFound";
 import { RegisterPage } from "../Views/RegisterPage";
+import { DashboardPage } from "../Views/DashboardPage";
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
   {
     path: "/register",
     component: RegisterPage,
+    exact: true,
+  },
+  {
+    path: "/dashboard",
+    component: DashboardPage,
     exact: true,
   },
   {
