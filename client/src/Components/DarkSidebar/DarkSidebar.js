@@ -4,7 +4,7 @@ import styles from "./DarkSidebar.module.css";
 
 const DarkSidebar = () => {
   return (
-    <div className={styles.darkSidebar}>
+    <div className={styles.darkSidebar} data-aos="fade-left">
       <img src={darkSidebarImg} alt="" className={styles.img} />
     </div>
   );

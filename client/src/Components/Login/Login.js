@@ -7,14 +7,14 @@ import RegForm from "./RegForm/RegForm";
 
 const Login = ({ reg }) => {
   return (
-    <div className={styles.login}>
+    <div className={styles.login} data-aos="fade-down">
       <Container className={`p-5 ${styles.left}`}>
         <span className="d-block heading__2 pb-4">
           {reg ? "Register" : "Login"}
         </span>
         <Row>
           <Col className="">
-            <Card className={styles.login__card}>
+            <Card className={styles.login__card} data-aos="fade-down-right">
               <Card.Body>{reg ? <RegForm /> : <LoginForm />}</Card.Body>
             </Card>
           </Col>

@@ -6,7 +6,7 @@ import data from "./stub/fakeData";
 
 const Features = () => {
   return (
-    <div className={styles.features}>
+    <div className={styles.features} data-aos="fade-top">
       <Container>
         <span className="d-block heading__2 text-center">Our Features</span>
         <span className="d-block lead__1 text-center">
