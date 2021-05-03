@@ -6,7 +6,7 @@ import styles from "./CustomerReview.module.css";
 
 const CustomerReview = () => {
   return (
-    <div className={styles.customer_review}>
+    <div className={styles.customer_review} data-aos="fade-left">
       <Container className="py-5">
         <Row className="pb-5">
           <Col md={6} xs={12}>
@@ -15,7 +15,11 @@ const CustomerReview = () => {
               Real Stories from Real Customers
             </span>
             <div>
-              <Card className={`p-5 ml-md-auto ${styles.card__left}`}>
+              <Card
+                className={`p-5 ml-md-auto ${styles.card__left}`}
+                data-aos="fade-right"
+                data-aos-easing="linear"
+              >
                 <img
                   src={quoteImg}
                   alt="Quote"
@@ -33,7 +37,11 @@ const CustomerReview = () => {
           </Col>
           <Col md={6} xs={12}>
             <div className={styles.right__cards}>
-              <Card className={`p-5 mx-auto ${styles.card__left}`}>
+              <Card
+                className={`p-5 mx-auto ${styles.card__left}`}
+                data-aos="fade-down"
+                data-aos-easing="linear"
+              >
                 <img
                   src={quoteImg}
                   alt="Quote"
@@ -48,7 +56,11 @@ const CustomerReview = () => {
                 </span>
               </Card>
 
-              <Card className={`p-5 mx-auto ${styles.card__left} mt-5`}>
+              <Card
+                className={`p-5 mx-auto ${styles.card__left} mt-5`}
+                data-aos="fade-up"
+                data-aos-easing="linear"
+              >
                 <img
                   src={quoteImg}
                   alt="Quote"
